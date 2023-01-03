@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
 /* General CSS */
 
 *{
@@ -17,4 +19,24 @@ body{
     height: 100vh;
     background: linear-gradient(to left, #000428, #004e92);
     overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    color: #f7f7f7cd;
+}
+
+
+/* Header Css */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-pic{
+    width: 80px;
+    height: 100px;
 }
