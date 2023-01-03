@@ -1,4 +1,4 @@
-// Nav menu JS Codes
+// menu JS Codes
 const menuItems = document.querySelectorAll(".menu-item");
 
 menuItems.forEach(item => {
