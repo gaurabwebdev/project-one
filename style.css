@@ -29,9 +29,9 @@ body{
 
 /* Header Css */
 header{
-    position: relative;
+    /* position: relative;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 15vh;
     display: flex;
@@ -138,37 +138,6 @@ header{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-  .site-logo{
-    width: 25%;
-}
-
-.site-logo h2{
-    font-size: 20px;
-}
-}
-
-@media only screen and (max-width: 600px) {
-  
-}
-
-
 /* Hero Area CSS */
 
 .hero-area {
@@ -257,3 +226,123 @@ header{
   color: #2dabf4bb;
   transition: 0.5s ease all;
 }
+
+/* Footer Css */
+
+footer{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 30px;
+  color: #b9c5cee9;
+}
+
+
+
+/* Media Query CSS */
+
+
+@media only screen and (max-width: 1200px) {
+  .hero-area-image img {
+    width: 425px;
+    height: 425px;
+  }
+
+  .hero-area-content h2 {
+    font-size: 45px;
+  }
+
+  .hero-area-content h2 span {
+    font-size: 50px;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .social{
+    width: 30%;
+    position: absolute;
+    bottom: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .hero-area-image{
+    width: 40%;
+    margin: 0 10px;
+  }
+  
+  .hero-area-image img {
+    width: 325px;
+    height: 325px;
+  }
+
+  .hero-area-content{
+    width: 55%;
+    padding: 10px;
+  }
+
+  .hero-area-content h2 {
+    font-size: 25px;
+  }
+
+  .hero-area-content p{
+    font-size: 16px;
+  }
+
+  .hero-area-content h2 span {
+    font-size: 40px;
+  }
+
+
+}
+  
+
+
+@media only screen and (max-width: 768px) {
+
+  .hero-area-image{
+    display: none;
+  }
+
+  .hero-area-content {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .site-logo{
+    width: 25%;
+}
+
+.site-logo h2{
+    font-size: 20px;
+}
+
+.hero-area-content h2, .hero-area-content p{
+  text-align: center;
+}
+
+.menu-bar svg{
+  font-size: 16px;
+}
+
+.hero-area-content button{
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+
