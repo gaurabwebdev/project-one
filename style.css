@@ -1,0 +1,20 @@
+/* General CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+:root{
+    --default: #2B3A55;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to left, #000428, #004e92);
+    overflow: hidden;
+}
