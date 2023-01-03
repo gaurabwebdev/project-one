@@ -179,3 +179,81 @@ header{
   align-items: center;
 }
 
+.social {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+.social svg {
+  font-size: 30px;
+  margin: 15px auto;
+  cursor: pointer;
+  color: #2DAAF4;
+}
+
+.hero-area-image {
+  width: 45%;
+  height: auto;
+  margin: 0 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-area-image img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.hero-area-content {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 40px;
+}
+
+.hero-area-content h2 {
+  font-size: 60px;
+  margin: 0 25px;
+  line-height: 75px;
+  text-align: right;
+}
+.hero-area-content h2 span {
+  font-size: 60px;
+  color: #F42C1D;
+  font-family: 'Righteous', cursive;
+  font-weight: inherit;
+}
+.hero-area-content p {
+  margin: 10px 25px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+.hero-area-content button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin: 0 25px;
+  margin-top: 0px;
+  margin-top: 30px !important;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: rgba(44, 59, 74, 0.744);
+  color: #2DAAF4;
+  border: none;
+}
+
+
+.social svg:hover, .hero-area-content button:hover{
+  color: #2dabf4bb;
+  transition: 0.5s ease all;
+}
