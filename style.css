@@ -60,3 +60,84 @@ header{
     font-size: 25px;
     margin: 27px 0 0 -25px;
   }
+
+.menu {
+    width: 60%;
+    margin: 0 20px;
+    margin-top: 30px !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+  }
+
+.menu-item{
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  margin: 5px;
+}
+
+.menu-item-text{
+  display: block;
+  position: relative;
+  color: #F62D1D;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+
+.menu-item > div:nth-child(1) span{
+  will-change: transform;
+  transform-style: preserve-3d;
+  transition: 0.5s ease all;
+  transition-delay: calc (0.05s * var(--index));
+  transform-origin: bottom;
+  display: inline-block;
+}
+.menu-item > div:nth-child(2) span{
+  will-change: transform;
+  transform-style: preserve-3d;
+  transition: 0.5s ease all;
+  transition-delay: calc (0.05s * var(--index));
+  transform-origin: top;
+  display: inline-block;
+  transform: translate3d(0, -100%, 0) rotateX(-90deg);
+}
+
+.menu-item:hover> div:nth-child(1) span{
+  transform: translate3d(0, -100%, 0) rotateX(-90deg);
+}
+.menu-item:hover> div:nth-child(2) span{
+  transform: translate3d(0, 0%, 0) rotateX(0deg);
+}
+
+/*
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    height: 100%;
+  }
+
+  nav ul li a {
+    color: #F62D1D;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 50px;
+  }
+
+  nav ul li a:hover, nav ul li a:active {
+    color: #2DAAF4;
+    cursor: pointer;
+    transition: 0.8s ease all;
+  }
+
+  */
+
+
+
