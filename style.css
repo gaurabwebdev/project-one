@@ -73,17 +73,17 @@ header{
   }
 
 .menu-item{
+  position: relative;
   text-transform: uppercase;
   cursor: pointer;
-  
-  margin: 5px;
+  color: #2dabf4bb;
+  font-family: 'Righteous', cursive;
 }
 
 .menu-item-text{
+  pointer-events: none;
   display: block;
   position: relative;
-  color: #F62D1D;
-  font-family: 'Righteous', cursive;
   font-size: 20px;
 }
 
@@ -102,7 +102,7 @@ header{
   transition-delay: calc (0.05s * var(--index));
   transform-origin: top;
   display: inline-block;
-  transform: translate3d(0, -100%, 0) rotateX(-90deg);
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
 }
 
 .menu-item:hover> div:nth-child(1) span{
@@ -112,32 +112,6 @@ header{
   transform: translate3d(0, 0%, 0) rotateX(0deg);
 }
 
-/*
-  nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    margin: auto;
-    height: 100%;
-  }
-
-  nav ul li a {
-    color: #F62D1D;
-    font-family: 'Righteous', cursive;
-    font-size: 20px;
-    margin: 5px;
-    padding: 10px 15px;
-    border-radius: 50px;
-  }
-
-  nav ul li a:hover, nav ul li a:active {
-    color: #2DAAF4;
-    cursor: pointer;
-    transition: 0.8s ease all;
-  }
-
-  */
 
 
 
